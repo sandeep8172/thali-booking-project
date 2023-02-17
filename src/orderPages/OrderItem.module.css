@@ -1,0 +1,17 @@
+.items h2 {
+    color: brown;
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 2rem;
+}
+
+.items ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.items {
+    background-color: rgb(252, 190, 190);
+}

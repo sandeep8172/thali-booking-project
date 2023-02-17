@@ -1,0 +1,43 @@
+.home {
+    background-image: linear-gradient(rgba(1, 4, 14, 0.5),
+            rgba(3, 13, 23, 0.4)), url("./background.jpg");
+    height: 88.8vh;
+}
+
+.home main {
+    text-align: right;
+}
+
+.home button {
+    background: transparent;
+    border: none;
+    color: white;
+    position: absolute;
+    right: 3rem;
+    top: 6rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.home button:hover {
+    font-size: 1.5rem;
+}
+
+.home div {
+    display: flex;
+    flex-direction: column;
+    height: 95.5%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    line-height: 6rem;
+}
+
+.home h1 {
+    font-size: 5rem;
+    font-style: italic;
+}
+
+.home p {
+    font-size: 2rem;
+}
