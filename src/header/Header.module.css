@@ -5,6 +5,10 @@
     border: none;
     padding: 1rem;
     background-color: rgb(192, 39, 39);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 
