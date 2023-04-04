@@ -6,3 +6,11 @@
     width: 90%;
     max-width: 40rem;
 }
+
+@media (max-width:768px) {
+    .card {
+        padding: 0.5rem 1rem;
+        width: 70%;
+        max-width: 40rem;
+    }
+}

@@ -1,7 +1,9 @@
 .home {
     background-image: linear-gradient(rgba(1, 4, 14, 0.5),
             rgba(3, 13, 23, 0.4)), url("./background.jpg");
-    height: 88.8vh;
+    background-size: cover;
+    height: 88vh;
+    margin-top: 12vh;
 }
 
 .home main {
@@ -40,4 +42,49 @@
 
 .home p {
     font-size: 2rem;
+}
+
+/* media querry */
+@media (max-width:768px) {
+
+    .home h1 {
+        font-size: 3rem;
+    }
+
+    .home p {
+        font-size: 1.5rem;
+    }
+
+    .home button {
+        right: 2rem;
+        top: 5rem;
+        font-size: 1rem;
+    }
+
+    .home div {
+        line-height: 4rem;
+    }
+
+}
+
+@media (max-width:430px) {
+
+    .home h1 {
+        font-size: 2.5rem;
+    }
+
+    .home p {
+        font-size: 1rem;
+    }
+
+    .home button {
+        right: 1rem;
+        top: 4.5rem;
+        font-size: 0.9rem;
+    }
+
+    .home div {
+        line-height: 3rem;
+    }
+
 }
